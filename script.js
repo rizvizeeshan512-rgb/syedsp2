@@ -14,7 +14,7 @@ function resetCard(card) { card.classList.remove("is-highlighted"); }
 // Update the image note when a culture photograph is hovered.
 function showImageMessage(elementId) {
   var message = document.getElementById(elementId);
-  if (message) { message.textContent = "Omani halwa with saffron. Image source and credits are listed in the README."; }
+  if (message) { message.textContent = "Omani halwa with saffron. Image source and credits are listed in the images folder."; }
 }
 function hideImageMessage(elementId) {
   var message = document.getElementById(elementId);
@@ -69,5 +69,6 @@ function validateTripForm() {
   document.getElementById("form-message").textContent = destinations.length + " destination(s) selected. This demonstration does not send or store your details.";
   return false;
 }
+
 
 
